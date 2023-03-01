@@ -29,7 +29,7 @@
       <% @todos.each do |x|  %>
         <tr>
           <th scope="row"><%= @i  %> </th>
-          <td><%= x[:todo].title %></td>
+          <td><%= x[:todo].name %></td>
           <td><%= x[:todo].description %></td>
           <td><%= x[:todo].created_at %></td>
           <td>
